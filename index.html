@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flex - Projeto de noticias</title>
+</head>
+<body>
+    <header>
+        <h1>Site de noticias</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Notícias</a></li>
+                <li><a href="#">Política</a></li>
+                <li><a href="#">Esportes</a></li>
+                <li><a href="#">Entretenimento</a></li>
+                <li><a href="#">Tecnologia</a></li>
+                <li><a href="#">Saúde</a></li>
+                <li><a href="#">Negócios</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <main>
+        <section class="latest_news">
+            <h1 class="mark">Destaques</h1>
+            <div class="carousel">
+                <div class="left">
+                    <button id="prevBtn"> &lt; </button>
+                </div>
+                <div class="row-news">
+                    <article>
+                        <img src="img/Coffee.jpg" alt="café">
+                        <a href="#">
+                            <h3>Novo estudo revela que o café pode reduzir o risco de doenças cardíacas em 20%</h3>
+                        </a>
+                        <p class="data">02/03/2023</p>
+                    </article>
+                    <article>
+                        <img src="img/Law.jpg" alt="lei">
+                        <a href="#">
+                            <h3>Presidente assina lei que amplia acesso a tratamento de saúde mental</h3>
+                        </a>
+                        <p class="data">01/03/2023</p>
+                    </article>
+                
+                    <article>
+                        <img src="img/futebol.jpeg" alt="futebol">
+                        <a href="#">
+                            <h3>Jogador de futebol famoso anuncia aposentadoria aos 35 anos</h3>
+                        </a>
+                        <p class="data">28/02/2023</p>
+                    </article>
+                
+                    <article>
+                        <img src="img/silicon-valley.avif" alt="silicon valley">
+                        <a href="#">
+                            <h3>Startup brasileira é selecionada para participar de programa de aceleração em Silicon Valley</h3>
+                        </a>
+                        <p class="data">27/02/2023</p>
+                    </article>
+                
+                    <article>
+                        <img src="img/vacina.webp" alt="vacina">
+                        <a href="#">
+                            <h3>Pesquisadores desenvolvem vacina promissora contra a malária</h3>
+                        </a>
+                        <p class="data">25/02/2023</p>
+                    </article>
+                
+                    <article>
+                        <img src="img/Água.jpg" alt="água">
+                        <a href="#">
+                            <h3>Crise hídrica preocupa especialistas e população em todo o país</h3>
+                        </a>
+                        <p class="data">24/02/2023</p>
+                    </article>
+                
+                    <article>
+                        <img src="img/Educação.jpeg" alt="livros">
+                        <a href="#">
+                            <h3>Governo anuncia pacote de incentivo à educação para combater evasão escolar</h3>
+                        </a>
+                        <p class="data">23/02/2023</p>
+                    </article>
+                </div>
+                <div class="right">
+                    <button id="nextBtn"> &gt; </button>
+                </div>
+            </div>
+            
+            
+        </section>
+        <section class="recent_news">
+            <h2 class="mark">Notícias Recentes</h2>
+            <article>
+                <a href="#">
+                    <h3>Presidente sanciona lei que garante acessibilidade digital para pessoas com deficiência</h3>
+                </a>
+                <p>O presidente da República sancionou nesta sexta-feira a Lei nº 12346/2023, que garante acessibilidade digital
+                    para pessoas com deficiência. A nova lei...</p>
+                <p class="data">04/03/2023</p>
+            </article>
+        
+            <article>
+                <a href="#">
+                    <h3>Empresa de tecnologia anuncia lançamento de novo smartphone com tela flexível</h3>
+                </a>
+                <p>A empresa de tecnologia XYZ anunciou o lançamento de seu novo smartphone com tela flexível. O aparelho, que
+                    possui uma tela de 7 polegadas que pode ser...</p>
+                <p class="data">03/03/2023</p>
+            </article>
+        
+            <article>
+                <a href="#">
+                    <h3>Novo estudo mostra que exercícios físicos podem ajudar no tratamento da ansiedade</h3>
+                </a>
+                <p>Um novo estudo publicado na revista científica Science mostrou que a prática regular de exercícios físicos
+                    pode ajudar no tratamento da ansiedade. Segundo os pesquisadores...</p>
+                <p class="data">02/03/2023</p>
+            </article>
+        
+            <article>
+                <a href="#">
+                    <h3>Academia de Hollywood anuncia os indicados ao Oscar 2023</h3>
+                </a>
+                <p>A Academia de Artes e Ciências Cinematográficas anunciou nesta terça-feira os indicados ao Oscar 2023. Entre
+                    os destaques estão...</p>
+                <p class="data">01/03/2023</p>
+            </article>
+        
+            <article>
+                <a href="#">
+                    <h3>Novo estudo revela que a meditação pode reduzir o estresse e melhorar o sono</h3>
+                </a>
+                <p>Um novo estudo publicado na revista científica Nature mostrou que a prática regular de meditação pode reduzir
+                    o estresse e melhorar a qualidade do sono. Segundo os pesquisadores...</p>
+                <p class="data">28/02/2023</p>
+            </article>
+        
+            <article>
+                <a href="#">
+                    <h3>Desmatamento na Amazônia atinge o maior índice em 10 anos</h3>
+                </a>
+                <p>O desmatamento na Amazônia atingiu o maior índice dos últimos 10 anos, segundo dados divulgados pelo
+                    Instituto Nacional de Pesquisas Espaciais (INPE). O aumento do desmatamento...</p>
+                <p class="data">27/02/2023</p>
+            </article>
+        
+            <article>
+                <a href="#">
+                    <h3>Ator famoso é internado com pneumonia</h3>
+                </a>
+                <p>O ator famoso, conhecido por seus papéis em filmes de ação, foi internado com pneumonia em um hospital de Los
+                    Angeles. Segundo sua assessoria de imprensa...</p>
+                <p class="data">25/02/2023</p>
+            </article>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Sobre Nós</h3>
+                <p>O site de notícias é uma fonte confiável para as últimas notícias em tempo real.</p>
+                <p>Nosso objetivo é fornecer informações precisas, objetivas e relevantes para nossos leitores em todo o mundo.
+                </p>
+            </div>
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <p>Entre em contato conosco para enviar dicas, sugestões e feedback.</p>
+                <p>Email: contato@noticias.com.br</p>
+                <p>Telefone: <strong>(11) 1234-5678</strong></p>
+            </div>
+        </div>
+        <div class="footer-credits">
+            <p>Criado por Giorge Lucas</p>
+        </div>
+    </footer>
+    <script src="script/carousel.js"></script>
+</body>
+</html>
