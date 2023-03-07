@@ -14,7 +14,7 @@ The news website includes the following features:
 To use the news website, simply follow one of the options below:
 
 - Option 1: Clone the repository using Git and open the `index.html` file in your web browser.
-- Option 2: Access the deployed version of the website by clicking on this link: [News website](https://nonulldev.github.io/Estudos-Projetos/CSS/Flex/Projeto%20-%20Site%20de%20not%C3%ADcias/)
+- Option 2: Access the deployed version of the website by clicking on this link: [News website](https://nonulldev.github.io/News-Website/)
 
 ## Credits
 This project was created by `Giorge Lucas`.
