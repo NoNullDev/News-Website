@@ -10,6 +10,10 @@ The news website includes the following features:
 - A section for the latest news
 - A footer with links to social media pages
 
+## Screenshot 📷
+
+![_C__Users_XNull_Desktop_Programa%C3%A7%C3%A3o_Estudos_CSS_Flexbox%20layout_Project%20-%20News%20website_index html](https://user-images.githubusercontent.com/97764442/224582024-215ec926-d7df-4908-916c-733d9f72aa87.png)
+
 ## Usage
 To use the news website, simply follow one of the options below:
 
